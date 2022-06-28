@@ -42,6 +42,7 @@ namespace KolokwiumRemastered.Controllers
                 MemberSurname = member.MemberSurname,
                 MemberNickName = member.MemberNickName
             };
+            
             await _dBservice.AddMember(memberToAdd);
             return Ok("Member added");
         }

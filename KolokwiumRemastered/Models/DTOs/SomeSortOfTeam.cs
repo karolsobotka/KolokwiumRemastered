@@ -8,7 +8,7 @@ namespace KolokwiumRemastered.Models.DTOs
         public string TeamDescription { get; set; }
         public SomeSortOfOrganization Organization { get; set; }
         public virtual IEnumerable<SomeSortOfFile> Files{ get; set; }
-        public virtual IEnumerable<SomeSortOfMembership> Memberships{ get; set; }
+        public virtual ICollection<SomeSortOfMembership> Memberships{ get; set; }
 
 
     }

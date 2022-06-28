@@ -7,7 +7,7 @@ namespace KolokwiumRemastered.Models.DTOs
         public string MemberName { get; set; }
         public string MemberSurname { get; set; }
         public string MemberNickName { get; set; }
-        public virtual IEnumerable<SomeSortOfMembership> Membership { get; set; }
+        public virtual ICollection<SomeSortOfMembership> Membership { get; set; }
         public SomeSortOfOrganization Organization { get; set; }
 
     }
