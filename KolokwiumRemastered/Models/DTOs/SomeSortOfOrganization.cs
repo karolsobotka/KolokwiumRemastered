@@ -7,8 +7,8 @@ namespace KolokwiumRemastered.Models.DTOs
     {
         public string OrganizationName { get; set; }
         public string OrganizationDomain{ get; set; }
-        public IEnumerable<SomeSortOfTeam> Teams { get; set; } 
-        public IEnumerable<SomeSortOfMember> Members { get; set; }
+        public virtual IEnumerable<SomeSortOfTeam> Teams { get; set; } 
+        public virtual IEnumerable<SomeSortOfMember> Members { get; set; }
 
     }
 }
